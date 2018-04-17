@@ -9,6 +9,11 @@ body{
 	color: black;
 	font-size: 30px;
 }
+
+.glyphicon-camera:hover{
+	color: orange;
+}
+
 .jumbotron{
 	text-align: center;
 	background-image: url(../images/bg2.jpg);
@@ -18,5 +23,65 @@ body{
 .text{
 	width: 80%;
 	text-align: center;
-	padding-left: 40%;
+	padding-left: 15%;
+}
+
+.contact{
+	font-size: 18px;
+	background-color: #FFFFFF;
+	color: #000;
+	text-align: center;
+	border-radius: 5%;
+	border-style: none;
+	padding: 7px;
+}
+
+.contact:hover{
+	background-color: #ABB2B9;
+	color: #FFFFFF;
+}
+
+.thumbnail{
+	text-align: center;
+	border-radius: 8%;
+	border: 10px solid #DCDCDC;
+	padding: 0;
+}
+
+.img-responsive{
+	border-radius: 7% 7% 0 0; 
+}
+
+.lorem{
+	font-size: 12px;
+	padding: 5px;
+}
+
+.btn-img{
+	margin-bottom: 25px;
+	border: 1px solid #7F8C8D;
+	background: linear-gradient(0deg, #7F8C8D, #FFFFFF);
+} 
+
+.btn-img:hover{
+	color: #FFFFFF;
+	background: linear-gradient(0deg, orange, #FFFFFF);
+} 
+
+footer{
+	width: 100%;
+	border: 1px solid #CCD1C1;
+	text-align: center;
+}
+.container-footer{
+	padding: 20px;
+	text-align: center;
+}
+
+h6{
+	width: 100%;
+	border-top: 1px solid #CCD1C1;
+	background-color: #D7DBDD;
+	padding: 15px;
+	margin: 0;
 }
